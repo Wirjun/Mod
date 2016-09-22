@@ -34,10 +34,12 @@ public final class ModItems {
 		TitaniumIngot = new Item().setUnlocalizedName("TitaniumIngot").setCreativeTab(Main.tabTheFourRealms)
 				.setTextureName(Main.MODID + ":TitaniumIngot");
 		// important to register the item
-		GameRegistry.registerItem(TitaniumIngot, "TitaniumIngot");
+		GameRegistry.registerItem(TitaniumIngot, "TitaniumIngot");		
 		
 		InfinityIngot = new Item().setUnlocalizedName("InfinityIngot").setCreativeTab(Main.tabTheFourRealms)
 				.setTextureName(Main.MODID + ":InfinityIngot");
+		
+		
 		// important to register the item
 		GameRegistry.registerItem(InfinityIngot, "InfinityIngot");
 		
