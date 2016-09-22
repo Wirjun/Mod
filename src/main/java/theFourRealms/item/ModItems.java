@@ -20,6 +20,8 @@ public final class ModItems {
 	public static final void init() {
 		PlatinIngot = new Item().setUnlocalizedName("PlatinIngot").setCreativeTab(tabTheFourRealms)
 				.setTextureName(Main.MODID + ":PlatinIngot");
+  Public static Item MeteorIngot;
+MeteorIngot = new Item().setUnlocalizedName (" MeteorIngot").setCreativTab(tabTheFourRealms).setTextureName(Main.MODID + ":MeteorIngot");
 		// important to register the item
 		GameRegistry.registerItem(PlatinIngot, "PlatinIngot");
 		
@@ -29,6 +31,7 @@ public final class ModItems {
 		@Override
 		public Item getTabIconItem() {
 			return PlatinIngot; 
+                        return MeteorIngot;
 		
 			
 		}
