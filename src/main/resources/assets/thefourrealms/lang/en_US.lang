@@ -1,0 +1,9 @@
+item.PlatinIngot.name=Platin Ingot
+item.MeteorIngot.name=Meteor Ingot
+item.TitaniumIngot.name=Titanium Ingot
+item.InfinityIngot.name=Infintiy Ingot
+tile.PlatinOre.name=Platin Ore
+tile.MeteorOre.name=Meteor Ore
+tile.TitaniumOre.name=Titanium Ore
+tile.InfinityOre.name=Infinity Ore
+itemGroup.TheFourRealms=The Four Realms!

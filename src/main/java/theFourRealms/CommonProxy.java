@@ -4,7 +4,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import theFourRealms.block.ModBlocks;
-import theFourRealms.item.ModItems;
+import theFourRealms.items.ModItems;
 
 public class CommonProxy {
 
