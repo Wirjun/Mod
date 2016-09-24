@@ -11,6 +11,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import theFourRealms.items.ModItems;
+import theFourRealms.items.Meteor.ItemModAxe;
+import theFourRealms.items.Meteor.ItemModeHoe;
 
 @Mod(modid = Main.MODID, name = Main.MODNAME, version = Main.VERSION)
 public class Main {
@@ -24,6 +26,8 @@ public class Main {
     public static final CreativeTabs tabTheFourRealms = new CreativeTabs("TheFourRealms") {
         @Override public Item getTabIconItem() {
             return ModItems.InfinityIngot;
+        
+            
         }
     };
     

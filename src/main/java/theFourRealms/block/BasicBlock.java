@@ -13,9 +13,9 @@ public class BasicBlock extends Block{
         this.setBlockName(unlocalizedName);
         this.setBlockTextureName(Main.MODID + ":" + unlocalizedName);
         this.setCreativeTab(Main.tabTheFourRealms);
-        this.setHardness(6.0F);
-        this.setResistance(6.0F);
-        this.setLightLevel(1.0F);
+        this.setHardness(13.0F);
+        this.setResistance(13.0F);
+        this.setLightLevel(13.0F);
         this.setHarvestLevel("pickaxe", 3);
         this.setStepSound(soundTypeMetal);
 	}
