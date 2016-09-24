@@ -2,6 +2,7 @@ package theFourRealms.items.Meteor;
 
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSword;
+import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import theFourRealms.Main;
 
@@ -13,5 +14,7 @@ public class ItemModPickaxe extends ItemPickaxe {
 		this.setUnlocalizedName(unlocalizedName);
 		// TODO Auto-generated constructor stub
 	}
+
+
 
 }
